@@ -36,11 +36,11 @@ const Cart = memo(function Cart({ cart, onUpdateQuantity, onRemoveItem }) {
                   <div className="flex-1">
                     <h3 className="font-medium text-gray-900 text-sm line-clamp-1 mb-1">{item.title}</h3>
                     <p className="text-xs text-gray-500">
-                      ${item.price.toFixed(2)} × {item.quantity}
+                      ₹{item.price.toFixed(2)} × {item.quantity}
                     </p>
                   </div>
                   <div className="text-sm font-semibold text-gray-900">
-                    ${(item.price * item.quantity).toFixed(2)}
+                    ₹{(item.price * item.quantity).toFixed(2)}
                   </div>
                 </div>
                 
@@ -85,7 +85,7 @@ const Cart = memo(function Cart({ cart, onUpdateQuantity, onRemoveItem }) {
             </div>
             <div className="flex justify-between items-center">
               <span className="text-base font-semibold text-gray-900">Total</span>
-              <span className="text-2xl font-bold text-gray-900">${totalPrice.toFixed(2)}</span>
+              <span className="text-2xl font-bold text-gray-900">₹{totalPrice.toFixed(2)}</span>
             </div>
           </div>
           
