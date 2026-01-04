@@ -1,4 +1,4 @@
-import { Search, Folder, DollarSign, X } from 'lucide-react';
+import { Search, Folder, IndianRupee, X } from 'lucide-react';
 
 function Filters({ 
   searchTerm, 
