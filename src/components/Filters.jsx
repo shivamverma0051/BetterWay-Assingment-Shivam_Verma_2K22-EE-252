@@ -61,7 +61,7 @@ function Filters({
             Sort by Price
           </label>
           <div className="relative">
-            <DollarSign className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
+            <IndianRupee className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-400 pointer-events-none" />
             <select
               value={sortOrder}
               onChange={(e) => onSortChange(e.target.value)}
